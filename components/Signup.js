@@ -1,6 +1,6 @@
 import React from 'react'
 // import { Text,View } from 'react-native'
-import { StyleSheet, Text, View ,Button} from 'react-native';
+import { StyleSheet, Text, View ,Button, Alert} from 'react-native';
 
 
 const Signup = ({navigation}) => {
@@ -8,7 +8,8 @@ const Signup = ({navigation}) => {
 <>
     <Text style={styles.text}>SignUp</Text>
     <Button title='Tap!' onPress={()=>{
-       navigation.navigate('login')
+    //    navigation.navigate('login')
+  
     }}/>
 </>
   )
