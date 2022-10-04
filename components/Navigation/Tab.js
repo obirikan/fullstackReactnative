@@ -1,10 +1,16 @@
 import { View, Text,StyleSheet } from 'react-native'
 import React from 'react'
 
-const Tab = () => {
+const Tab = ({navigation}) => {
   return (
     <>
-      <Text style={styles.txt}>Tab</Text>
+      <Text style={styles.txt}
+       onPress={()=>{
+        navigation.push('slayers')
+       }}
+      >
+        slayers
+      </Text>
       <Text style={styles.txt}>Tab</Text>
       <Text style={styles.txt}>Tab</Text>
       <Text style={styles.txt}>Tab</Text>

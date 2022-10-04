@@ -2,7 +2,7 @@ import { View, Text,StyleSheet } from 'react-native'
 import React from 'react'
 import Tab from './Navigation/Tab'
 
-const Home = ({navigation}) => {
+const Slayers = ({navigation}) => {
   return (
     <> 
     <View style={styles.container1}>
@@ -26,7 +26,7 @@ const styles=StyleSheet.create({
     },
     container2:{
         flex:2,
-        backgroundColor:'grey',
+        backgroundColor:'white',
         display:'flex',
         justifyContent:'center',
         alignItems:'center'
@@ -40,4 +40,4 @@ const styles=StyleSheet.create({
     },
 })
 
-export default Home
+export default Slayers
