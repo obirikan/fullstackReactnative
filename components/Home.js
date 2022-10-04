@@ -7,11 +7,11 @@ const Home = () => {
     <View style={styles.container1}>
       <Text>user section</Text>
     </View>
-    <View>
+    <View style={styles.container2}>
       <Text>content section</Text>
     </View>
-    <View>
-      <Text>navigation</Text>
+    <View style={styles.container3}>
+      <Text >navigation</Text>
     </View>
     </>
   )
@@ -21,10 +21,10 @@ const Home = () => {
 const styles=StyleSheet.create({
     container1:{
         flex:1,
-        backgroundColor:'black'
+        backgroundColor:'yellow'
     },
     container2:{
-        flex:4,
+        flex:1,
         backgroundColor:'grey'
     },
     container3:{
