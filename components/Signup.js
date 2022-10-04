@@ -8,7 +8,7 @@ const Signup = ({navigation}) => {
 <>
     <Text style={styles.text}>SignUp</Text>
     <Button title='Tap!' onPress={()=>{
-    //    navigation.navigate('login')
+       navigation.navigate('login')
   
     }}/>
 </>
